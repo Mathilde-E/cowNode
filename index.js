@@ -1,11 +1,10 @@
 const userInfo = require('./information');
 
-console.log(userInfo);
 
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : "Hello Wilders!",
+    text : `Hello Wilders! I am ${userInfo.objet.nom} from the campus ${userInfo.objet.campus}`,
     e : "oO",
     T : "U "
-}));git 
+}));

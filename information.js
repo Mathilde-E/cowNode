@@ -3,5 +3,6 @@ const objet = {
     campus: "remote",
 }
 
-module.exports = { objet
+module.exports = { 
+    objet
 };
